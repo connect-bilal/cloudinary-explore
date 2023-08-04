@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg';
 import cloudinary from 'cloudinary-react';
 import './App.css';
 
+
 const ImageUploader = () => {
   const [file, setFile] = useState(null);
   const [uploadSuccess, setUploadSuccess] = useState(false);
