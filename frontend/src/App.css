@@ -1,0 +1,69 @@
+:root {
+  --margin: 5px auto;
+  --padding: 3px 5px;
+  --color-white: #fff;
+  --color-brown: brown;
+}
+
+body {
+  height: 100vh;
+}
+
+#root {
+  width: 100%;
+  min-height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 25px;
+  width: 400px;
+}
+
+form, .input-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+input {
+  max-width: 200px;
+  cursor: pointer;
+}
+
+h3 {
+  text-transform: uppercase;
+  text-decoration: underline;
+  text-align: center;
+}
+
+label {
+  color: var(--color-white);
+  background-color: var(--color-brown);
+  padding: var(--padding);
+  width: 100%;
+  display: block;
+  box-sizing: border-box;
+}
+
+img, button {
+  margin: var(--margin);
+}
+
+button {
+  padding: var(--padding);
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.5rem;
+}
+
+button:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
